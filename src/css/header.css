@@ -1,0 +1,54 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+
+.nav-list {
+    display: none;
+}
+
+
+
+.header-adress {
+    display: none;
+}
+
+.header-adress-tel {}
+
+.header-burger-button {
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.header-burger-svg {
+    display: block;
+}
