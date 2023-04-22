@@ -38,6 +38,14 @@
   overflow: hidden;
 }
 
+.icon-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 21px;
+  height: 19px;
+}
+
 .card-img {
   margin-left: auto;
   margin-right: auto;
