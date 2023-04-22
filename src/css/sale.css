@@ -1,0 +1,47 @@
+.section-sale{
+    background-color: #EFEFEF;
+}
+
+
+/*--------------MOB--------------------*/
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+
+    .watch-card-wrapper {
+        display: flex;
+    }
+
+    .title-section {
+        Font-family: Epilogue;
+        Font-style: SemiBold;
+        Font-size: 32px;
+        Line-height: 1.25;
+        text-align: left;
+        letter-spacing: 0.2em;
+        color: #141414;
+        padding-bottom: 40px;
+    }
+
+
+
+    /*--------------TABLET-----------*/
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+
+
+/*------------DESKTOP--------------*/
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1216px;
+    }
+}
