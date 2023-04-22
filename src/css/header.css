@@ -3,16 +3,17 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #000;
 }
 
 .header-wrap {
+    margin-top: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-logo {
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     gap: 4px;
@@ -24,7 +25,13 @@
     line-height: 12px;
     letter-spacing: -0.03em;
 
-    color: #FFFFFF;
+    color: var(--lite);
+}
+
+.header-logo-svg {
+    display: block;
+    width: 14px;
+    height: 14px;
 }
 
 
@@ -41,9 +48,10 @@
 .header-adress-tel {}
 
 .header-burger-button {
+    padding: 18px 0;
     display: block;
     width: 24px;
-    height: 24px;
+    height: 64px;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -51,4 +59,90 @@
 
 .header-burger-svg {
     display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-wrap {
+        margin-top: 20px;
+    }
+
+    .header-logo {
+
+        font-size: 15px;
+    }
+
+    .header-logo-svg {
+        width: 19px;
+        height: 19px;
+    }
+
+    .header-nav {
+        margin-left: 80px;
+        margin-right: auto;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 4px;
+    }
+
+    .nav-item-link {
+        padding: 18px 18px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 8px;
+        color: var(--lite);
+
+        transition: color var(--cubic-bezier),
+            background-color var(--cubic-bezier);
+    }
+
+    .nav-item-link:hover,
+    .nav-item-link:focus {
+        color: var(--black);
+        background-color: var(--lite);
+    }
+
+    .header-burger-button {
+        display: none;
+    }
+
+    .header-adress {
+        display: block;
+    }
+
+    .header-adress-tel {
+        padding: 18px 36px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 8px;
+
+        color: var(--lite);
+        background-color: var(--dark);
+        transition: color var(--cubic-bezier),
+            background-color var(--cubic-bezier);
+    }
+
+    .header-adress-tel:hover,
+    .header-adress-tel:focus {
+        color: var(--black);
+        background-color: var(--lite);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1216px;
+    }
 }
