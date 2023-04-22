@@ -14,8 +14,6 @@ h6 {
   margin: 0;
 }
 
-
-
 button {
   cursor: pointer;
 }
@@ -42,7 +40,6 @@ address {
   overflow: hidden;
 }
 
-
 ul {
   padding-left: 0;
   margin: 0;
@@ -52,8 +49,6 @@ ul {
 a {
   text-decoration: none;
   font-style: normal;
-
-
 }
 
 .container {
@@ -64,7 +59,7 @@ a {
   margin-right: auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
   .container {
     width: 375px;
   }
@@ -72,11 +67,11 @@ a {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 744px
+    width: 744px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1216px;
   }
