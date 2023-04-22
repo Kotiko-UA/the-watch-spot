@@ -12,15 +12,16 @@
 
     .watch-card-wrapper {
         display: flex;
+        margin-bottom: 40px;
     }
 
     .title-section {
         Font-family: Epilogue;
-        Font-style: SemiBold;
+        Font-weight: 600;
         Font-size: 32px;
         Line-height: 1.25;
         text-align: left;
-        letter-spacing: 0.2em;
+        letter-spacing: -0.02em;
         color: #141414;
         padding-bottom: 40px;
     }
