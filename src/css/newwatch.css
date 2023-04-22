@@ -1,0 +1,52 @@
+.new-watches-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.new-watches-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 8px;
+}
+
+.new-watches-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+.new-watches-gallery-item {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 375px) {
+    .new-watches-container {
+        max-width: 375px;
+    }
+}
+
+/* !=============== TABLET ===================== */
+
+@media screen and (min-width: 768px) {
+    .new-watches-container {
+        max-width: 744px;
+    }
+}
+
+/* !=============== DESKTOP ===================== */
+
+@media screen and (min-width: 1280px) {
+    .new-watches-container {
+        max-width: 1196px;
+    }
+}
