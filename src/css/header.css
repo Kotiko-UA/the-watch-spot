@@ -28,7 +28,7 @@
     color: var(--lite);
 }
 
-.header-logo-svg {
+.header-logo-img {
     display: block;
     width: 14px;
     height: 14px;
@@ -72,7 +72,7 @@
         font-size: 15px;
     }
 
-    .header-logo-svg {
+    .header-logo-img {
         width: 19px;
         height: 19px;
     }
