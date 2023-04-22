@@ -26,6 +26,10 @@
         padding-bottom: 40px;
     }
 
+    .features-details{
+        display:block;
+        margin:0 auto;
+    }
 
 
     /*--------------TABLET-----------*/
