@@ -69,7 +69,6 @@
   padding: 40px 59px 40px 40px;
   border-radius: 8px;
   transform: scale(0.1);
-
   transition: 250ms ease-in-out, transform 250ms linear 500ms;
 }
 
@@ -142,7 +141,7 @@
     flex-wrap: wrap;
     row-gap: 83px;
     column-gap: 62px;
-    justify-content: center;
+    justify-content: space-between;
   }
   .card-item {
     flex-basis: calc((100% - 62px) / 2);
