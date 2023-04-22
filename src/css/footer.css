@@ -1,0 +1,119 @@
+footer {
+    background-color: #1E2827;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-main-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer-main----------------------------------------- */
+.footer-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-phone-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--lite);
+    width: 141px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.footer-navigation {
+    margin-left: auto;
+}
+
+.footer-navigation-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.footer-navigation-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; 
+}
+
+
+
+.media-list-wrapper {
+    width: 100%;
+    max-width: 148px;
+}
+
+.media-list {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 80px;
+}
+
+.social-media-btn {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-content: center;
+}
+
+.media-logo {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.copyright-text {
+    margin-bottom: 14px;
+}
+
+.pp-text {
+    margin-right: 14px;
+}
+
+.service-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+}
+
+/* Tablet-------------------------------------------------------------------------  */
+    
+@media screen and (min-width: 768px) {
+.footer-main-content-wrapper {
+    justify-content: space-between;
+}
+.footer-navigation {
+    margin-left: 0;
+}
+.service-wrapper {
+    margin-top: 80px;
+    display: flex;
+}
+.pp-text {
+    margin-left: auto;
+    margin-right: 18px;
+}
+.footer-logo {
+    width: 50px;
+    height: 50px;
+}
+}
