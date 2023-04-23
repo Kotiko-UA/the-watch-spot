@@ -4,6 +4,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 80px;
+    background: #EFEFEF;
 }
 
 .new-watches-title {
@@ -62,6 +63,10 @@
         display: flex;
         gap: 20px;
     }
+
+    .new-watches-gallery-item {
+        margin-bottom: 0;
+    }
 }
 
 /* !=============== DESKTOP ===================== */
@@ -70,6 +75,7 @@
     .new-watches-container {
         max-width: 1196px;
         padding-top: 80px;
+        background: none;
     }
 
     .new-watches-subtitle {
