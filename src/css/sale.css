@@ -26,6 +26,18 @@
         padding-bottom: 40px;
     }
 
+    .title-watch{
+        Font-family: Epilogue;
+        Font-weight: 400;
+        Font-size: 24px;
+        Line-height: 1;
+        text-align: left;
+        Letter-spacing: -0.02em;
+        color: #141414;
+    }
+
+
+
     .features-details{
         display:block;
         margin:0 auto;
