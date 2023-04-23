@@ -8,10 +8,13 @@
 @media screen and (min-width: 375px) {
     .container {
         width: 375px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .watch-card-wrapper {
         display: flex;
+        padding-bottom: 40px;
     }
 
     .title-section {
@@ -28,7 +31,6 @@
         .watch-name-wrapper{
             display: flex;
             flex-direction: column;
-            padding-top:40px;
 }
 
     .title-watch{
@@ -56,6 +58,7 @@
 
     .prices{
     display: flex;
+    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -71,8 +74,6 @@
     }
 
     .old-price{
-    display: inline-flex;
-    align-items: center;
     Font-family: Epilogue;
     Font-weight: 400;
     Font-size: 12px;
@@ -86,13 +87,92 @@
     content:'';
     width:335px;
     height:1px;
-    background-color: black;
+    background-color: #141414;
 }
 
-    .features-details{
-        display:block;
-        margin:0 auto;
-    }
+.watch-description-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+.title-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Font-family: Epilogue;
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #141414;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.title-description::after{
+    content: '';
+    width:16px;
+    height:1px;
+    background-color: #141414;
+}
+
+.text-description{
+    width:100%;
+    Font-family: Epilogue;
+    Font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align:left;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 40px;
+}
+
+.watch-description-wrapper::after{
+    content: '';
+    width: 335px;
+    height: 1px;
+    background-color: #141414;
+}
+
+.title-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Font-family: Epilogue;
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #141414;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.title-details::after{
+    content: '';
+    width: 16px;
+    height: 1px;
+    background-color: #141414;
+}
+
+.features-details{
+    display:block;
+    margin:0 auto;
+    Font-family: Epilogue;
+    Font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align: Left;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+}
 
 
     /*--------------TABLET-----------*/
