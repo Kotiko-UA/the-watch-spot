@@ -6,22 +6,59 @@
     </h3>
     <ul class="new-wathes-gallery-list">
       <li class="new-watches-gallery-item list">
-        <img
-          src="./img/new-watches/photo1.jpg"
-          alt="a watch on an arm"
-          srcset="./img/new-watches/photo1@2x.jpg 2x"
-          width="335px"
-          height="260px"
-        />
+        <picture>
+          <source
+            srcset="
+              ../img/new-watches/photo1-descj.jpg    1x,
+              ../img/new-watches/photo1-descj@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ../img/new-watches/photo1-tabj.jpg    1x,
+              ../img/new-watches/photo1-tabj@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/new-watches/photo1-mobj.jpg    1x,
+              ../img/new-watches/photo1-mobj@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/new-watches/photo1-mobj.jpg"
+            alt="a watch on an arm"
+          />
+        </picture>
       </li>
       <li class="new-watches-gallery-item list">
-        <img
-          src="./img/new-watches/photo2.jpg"
-          alt="a watch on an arm"
-          srcset="./img/new-watches/photo2@2x.jpg 2x"
-          width="335px"
-          height="260px"
-        />
+        <picture>
+          <source
+            srcset="
+              ../img/new-watches/photo2-descj.jpg    1x,
+              ../img/new-watches/photo2-descj@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ../img/new-watches/photo2-tabj.jpg    1x,
+              ../img/new-watches/photo2-tabj@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/new-watches/photo2-mobj.jpg    1x,
+              ../img/new-watches/photo2-mobj@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img src="./img/new-watches/photo2-mobj.jpg" alt="a watch" />
+        </picture>
       </li>
     </ul>
   </div>
