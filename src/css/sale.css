@@ -12,7 +12,6 @@
 
     .watch-card-wrapper {
         display: flex;
-        margin-bottom: 40px;
     }
 
     .title-section {
@@ -26,6 +25,12 @@
         padding-bottom: 40px;
     }
 
+        .watch-name-wrapper{
+            display: flex;
+            flex-direction: column;
+            padding-top:40px;
+}
+
     .title-watch{
         Font-family: Epilogue;
         Font-weight: 400;
@@ -34,9 +39,55 @@
         text-align: left;
         Letter-spacing: -0.02em;
         color: #141414;
+        margin-bottom: 8px;
     }
 
+    .watch-number{
+    display: block;
+    Font-family: Epilogue;
+    Font-weight:400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align: left;
+    Letter-spacing: -0.02em;
+    color:rgba(20, 20, 20, 0.5);
+    margin-bottom: 16px;
+    }
 
+    .prices{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+    .price{
+    Font-family: Neue Montreal;
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    Letter-spacing: -0.02em;
+    color: #141414;
+    margin-right: 8px;
+    }
+
+    .old-price{
+    display: inline-flex;
+    align-items: center;
+    Font-family: Epilogue;
+    Font-weight: 400;
+    Font-size: 12px;
+    Line-height: 1.16;
+    Letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    text-decoration: line-through;
+    }
+
+.watch-name-wrapper::after{
+    content:'';
+    width:335px;
+    height:1px;
+    background-color: black;
+}
 
     .features-details{
         display:block;
