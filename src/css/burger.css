@@ -82,6 +82,10 @@
 .color-nav-bur {
   color: var(--lite);
 }
+.burger-body.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 @media screen and (min-width: 768px) {
   .burger-body {
     display: none;
