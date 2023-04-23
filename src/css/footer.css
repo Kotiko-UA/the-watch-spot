@@ -25,6 +25,7 @@ footer {
     font-size: 18px;
     line-height: 1.29;
     color: var(--lite);
+    opacity: 0.8;
 }
 
 .footer-text {
@@ -36,6 +37,7 @@ footer {
     color: var(--lite);
     margin-top: 20px;
     display: block;
+    opacity: 0.8;
 }
 
 .footer-navigation {
@@ -54,6 +56,7 @@ footer {
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--lite); 
+    opacity: 0.8;
 }
 
 
@@ -86,6 +89,13 @@ footer {
 }
 
 .service-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+}
+.copyright-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
@@ -161,39 +171,48 @@ footer {
 
 
     .footer-phone-number {
-        transition: color var(--cubic-bezier); 
+        transition: opacity var(--cubic-bezier); 
     }
 
     .footer-phone-number:hover,
     .footer-phone-number:focus {
-        color: #C6CDD1;
+        opacity: 1;
     }
 
     .footer-text {
-        transition: color var(--cubic-bezier); 
+        transition: opacity var(--cubic-bezier); 
     }
 
     .footer-text:hover,
     .footer-text:focus {
-        color: #C6CDD1;
+        opacity: 1;
     }
 
     .footer-navigation-item {
-        transition: color var(--cubic-bezier); 
+        transition: opacity var(--cubic-bezier); 
     }
 
     .footer-navigation-item:hover,
     .footer-navigation-item:focus {
-        color: #C6CDD1;
+        opacity: 1;
     }
 
     .media-logo {
-        transition: scale var(--cubic-bezier);
+        transition: opacity var(--cubic-bezier);
     }
 
     .social-media-btn:hover .media-logo,
     .social-media-btn:focus .media-logo {
-        scale: 1.2;
+        opacity: 1;
+    }
+
+    .social-media-btn {
+        transition: border-color var(--cubic-bezier);
+    }
+
+    .social-media-btn:hover,
+    .social-media-btn:focus {
+        border-color: var(--lite);
     }
     
     .service-text {
