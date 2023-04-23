@@ -17,18 +17,18 @@ footer {
 
 .footer-phone-number {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
     color: #FFFFFF;
 }
 
 .footer-text {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
+    width: 181px;
     letter-spacing: -0.02em;
     color: var(--lite);
-    width: 141px;
     margin-top: 20px;
     margin-bottom: 40px;
     display: block;
@@ -46,7 +46,7 @@ footer {
 
 .footer-navigation-item {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #FFFFFF; 
@@ -89,11 +89,31 @@ footer {
 
 .service-text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #C6CDD1;
 }
+/* Max Width----------------------------------------------------------------------  */
+@media screen and (max-width: 768px) {
+    .footer-text {
+        font-size: 14px;
+        width: 141px;
+    }   
+    .footer-phone-number {
+        font-size: 14px;
+    } 
+    .footer-navigation-item {
+        font-size: 14px;
+    }
+    .service-text {
+        font-size: 12px;
+    }
+    
+    
+}
+
+
 
 /* Tablet-------------------------------------------------------------------------  */
     
@@ -105,7 +125,7 @@ footer {
     margin-left: 0;
 }
 .service-wrapper {
-    margin-top: 80px;
+    margin-top: 152px;
     display: flex;
 }
 .pp-text {
@@ -116,4 +136,19 @@ footer {
     width: 50px;
     height: 50px;
 }
+.footer-text {
+    margin-bottom: 0;
+}
+.footer-navigation-list {
+    row-gap: 18px;
+}
+.media-logo {
+    width: 28px;
+    height: 28px;
+}
+}
+@media screen and (min-width: 1280px) {
+    .service-wrapper {
+        margin-top: 174px;
+    }
 }
