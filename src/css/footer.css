@@ -12,7 +12,12 @@ footer {
 .footer-logo {
     width: 40px;
     height: 40px;
+}
+
+.footer-logo-wrapper {
     margin-bottom: 40px;
+    display: block;
+    width: 40px;
 }
 
 .footer-phone-number {
@@ -30,7 +35,6 @@ footer {
     letter-spacing: -0.02em;
     color: var(--lite);
     margin-top: 20px;
-    margin-bottom: 40px;
     display: block;
 }
 
@@ -53,16 +57,9 @@ footer {
 }
 
 
-
-.media-list-wrapper {
-    width: 100%;
-    max-width: 148px;
-}
-
 .media-list {
     display: flex;
     column-gap: 16px;
-    margin-bottom: 80px;
 }
 
 .social-media-btn {
@@ -109,7 +106,12 @@ footer {
     .service-text {
         font-size: 12px;
     }
-    
+    .footer-address-wrapper {
+        margin-bottom: 40px;
+    }
+    .media-list-wrapper {
+        margin-bottom: 80px;
+    }
     
 }
 
@@ -118,7 +120,11 @@ footer {
 /* Tablet-------------------------------------------------------------------------  */
     
 @media screen and (min-width: 768px) {
-.footer-main-content-wrapper {
+    .footer-logo-wrapper {
+        width: 50px;
+    }
+
+    .footer-main-content-wrapper {
     justify-content: space-between;
 }
 .footer-navigation {
@@ -150,5 +156,23 @@ footer {
 @media screen and (min-width: 1280px) {
     .service-wrapper {
         margin-top: 174px;
+    }
+
+    .footer-navigation-item {
+        transition: scale var(--cubic-bezier); 
+    }
+
+    .footer-navigation-item:hover,
+    .footer-navigation-item:focus {
+        font-size: 19px;
+    }
+
+    .media-logo {
+        transition: scale var(--cubic-bezier);
+    }
+
+    .social-media-btn:hover .media-logo,
+    .social-media-btn:focus .media-logo {
+        scale: 1.2;
     }
 }
