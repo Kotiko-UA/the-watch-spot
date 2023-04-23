@@ -88,26 +88,14 @@
 .color-nav-bur {
   color: var(--lite);
 }
+
 .burger-posion.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 @media screen and (min-width: 768px) {
   .burger-posion {
     display: none;
   }
 }
-/*.overlay-element {
-  position: absolute;
-   
-  margin: 0;
-  left: 0;
-  top: 0;
-  height: 100%;
-   
-   
-   
-
-  transform: translateY(100%);
-  transition: transform var(--time-transform);
-}*/
