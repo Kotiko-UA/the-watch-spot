@@ -23,6 +23,11 @@
         padding-bottom: 40px;
     }
 
+.column-card-wrapper{
+display: flex;
+flex-direction: column;
+}
+
     .title-section {
         Font-family: Epilogue;
         Font-weight: 600;
@@ -40,10 +45,15 @@
         gap:12px;
     }
 
+.single-card-wrapper{
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
     .single-watch{
-        display: block;
-        margin-left:20px;
-        margin-right:0;
+        
+        
     }
 
     .watch-name-wrapper{
