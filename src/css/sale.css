@@ -2,6 +2,12 @@
     background-color: #EFEFEF;
 }
 
+/*@media screen and (max-width:1279px) {
+    .container-sale {
+        display: block;
+    }
+}*/
+
 
 /*--------------MOB--------------------*/
 
@@ -28,9 +34,9 @@
         padding-bottom: 40px;
     }
 
-        .watch-name-wrapper{
-            display: flex;
-            flex-direction: column;
+    .watch-name-wrapper{
+        display: flex;
+        flex-direction: column;
 }
 
     .title-watch{
@@ -85,7 +91,7 @@
 
 .watch-name-wrapper::after{
     content:'';
-    width:335px;
+    width:inherit;
     height:1px;
     background-color: #141414;
 }
@@ -133,7 +139,7 @@
 
 .watch-description-wrapper::after{
     content: '';
-    width: 335px;
+    width: inherit;
     height: 1px;
     background-color: #141414;
 }
@@ -172,15 +178,16 @@
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
 }
-
+}
 
     /*--------------TABLET-----------*/
 
-}
 
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
+        padding-top: 128px;
+        padding-bottom: 128px;
     }
 }
 
@@ -190,5 +197,13 @@
 @media screen and (min-width: 1280px) {
     .container {
         width: 1216px;
+        padding-top: 160px;
+        padding-bottom: 160px;
     }
+
+.container-sale{
+    display:flex;
+    flex-direction: row;
+}
+
 }
