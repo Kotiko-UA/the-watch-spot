@@ -159,12 +159,12 @@ footer {
     }
 
     .footer-navigation-item {
-        transition: scale var(--cubic-bezier); 
+        transition: font-size var(--cubic-bezier); 
     }
 
     .footer-navigation-item:hover,
     .footer-navigation-item:focus {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .media-logo {
