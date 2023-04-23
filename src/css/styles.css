@@ -4,8 +4,10 @@
   | default @import url()
   |============================
 */
+/* fonts -------------------------------------------- */
+@import url('./fonts.css');
 /* Variables */
-@import url('./variables.scc');
+@import url('./variables.css');
 /* reset--------------------------------------------- */
 @import url('./reset.css');
 /* header -------------------------------------------*/
@@ -24,3 +26,5 @@
 @import url('./buynow.css');
 /* Burger -----------------------------------------------*/
 @import url('./burger.css');
+/* Footer-------------------------------------------------  */
+@import url('./footer.css');
