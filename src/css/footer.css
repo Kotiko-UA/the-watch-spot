@@ -74,6 +74,7 @@ footer {
     width: 24px;
     height: 24px;
     fill: var(--lite);
+    opacity: 0.8;
 }
 
 .copyright-text {
