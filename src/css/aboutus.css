@@ -1,6 +1,12 @@
+.aboutus-section{
+    background-color: #FBFBFB;
+}
+
 .aboutus-area {
     padding-top: 40px;
     padding-bottom: 80px;
+
+
   }
   .aboutus-name {
     font-family: 'Epilogue';
@@ -31,6 +37,8 @@
     height: 365px;
     margin-right: auto;
     margin-left: auto;
+
+    background-color: var(--black);
   }
   .aboutus-text-section{
   margin-bottom: 40px;
@@ -72,7 +80,7 @@
   @media screen and (min-width: 1280px) {
     .aboutus-area {
         padding-top: 80px;
-        padding-bottom: 0;
+        padding-bottom: 80px;
       }
 .aboutus-name{
 margin-right: 110px;
