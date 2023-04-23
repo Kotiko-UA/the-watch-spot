@@ -47,7 +47,6 @@
 
 
 .header-burger-button {
-    padding: 18px 0;
     display: block;
     width: 24px;
     height: 64px;
@@ -58,6 +57,7 @@
 
 .header-burger-svg {
     display: block;
+    fill: #fff;
 }
 
 

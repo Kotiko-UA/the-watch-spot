@@ -11,14 +11,14 @@
 }
 
 .container-catalog {
-  background-color: #ffffff;
+  background-color: #fbfbfb;
 }
 
 .catalog-title {
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  color: #1e2827;
+  color: var(--dark);
   margin-bottom: 40px;
 }
 
@@ -38,6 +38,14 @@
   overflow: hidden;
 }
 
+/* .icon-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 21px;
+  height: 19px;
+} */
+
 .card-img {
   margin-left: auto;
   margin-right: auto;
@@ -47,7 +55,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
+  color: var(--black);
   margin-bottom: 4px;
 }
 .text-hidden {
@@ -63,13 +71,13 @@
   position: absolute;
   top: -100%;
   left: 0;
-  background-color: #141414;
+  background-color: var(--black);
   width: 100%;
   height: 360px;
   padding: 40px 59px 40px 40px;
   border-radius: 8px;
   transform: scale(0.1);
-  transition: 250ms ease-in-out, transform 250ms linear 500ms;
+  transition: var(--cubic-bezier), transform var(--cubic-bezier) 250ms;
 }
 
 .title-overlay {
@@ -78,7 +86,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--lite);
   margin-bottom: 10px;
 }
 .text-overlay {
@@ -107,17 +115,18 @@
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #1e2827;
+  color: var(--lite);
+  background-color: var(--dark);
   border-radius: 8px;
   margin-left: auto;
   margin-top: 40px;
-  transition: border 250ms ease-in-out;
-  border: none;
+  transition: border var(--cubic-bezier);
+  border: transparent;
 }
 .button-buy:hover,
 .button-buy:focus {
-  border: 1px solid #ffffff;
+  background-color: var(--black);
+  /* border: 1px solid var(--lite); */
 }
 
 @media screen and (min-width: 768px) {
