@@ -11,7 +11,7 @@
 }
 
 .container-catalog {
-  background-color: var(--lite);
+  background-color: #fbfbfb;
 }
 
 .catalog-title {
@@ -169,6 +169,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .catalog-title {
     margin-bottom: 90px;
   }
