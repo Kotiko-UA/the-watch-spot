@@ -1,6 +1,6 @@
 .burger-body {
   position: fixed;
-  background-color: #1e2827;
+  background-color: var(--dark);
   width: 100%;
   height: 100%;
   padding-left: 20px;
@@ -18,28 +18,28 @@
 .burger-log {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: space-between;
   width: 98px;
   gap: 4px;
 }
 .burger-logo {
   width: 14px;
   height: 14px;
-  fill: #fff;
+  fill: var(--lite);
   align-items: center;
   justify-items: center;
   text-align: center;
 }
 
 .burger-logo-text {
-  font-family: 'Epilogue';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: -0.03em;
 
-  color: #ffffff;
+  color: var(--lite);
 }
 .burger-close {
   position: absolute;
@@ -69,7 +69,7 @@
   text-align: center;
 }
 .burger-list-item {
-  font-family: 'Epilogue';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -80,5 +80,10 @@
   margin-bottom: 16px;
 }
 .color-nav-bur {
-  color: #ffffff;
+  color: var(--lite);
+}
+@media screen and (min-width: 768px) {
+  .burger-body {
+    display: none;
+  }
 }
