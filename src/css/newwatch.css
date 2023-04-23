@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 80px;
 }
 
 .new-watches-title {
@@ -45,6 +46,7 @@
 @media screen and (min-width: 768px) {
     .new-watches-container {
         max-width: 744px;
+        padding-top: 128px;
     }
 
     .new-watches-subtitle {
@@ -65,5 +67,14 @@
 @media screen and (min-width: 1280px) {
     .new-watches-container {
         max-width: 1196px;
+        padding-top: 80px;
+    }
+
+    .new-watches-subtitle {
+        margin-bottom: 80px;
+    }
+
+    .new-wathes-gallery-list {
+        gap: 24px;
     }
 }
