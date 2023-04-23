@@ -1,6 +1,6 @@
-.section-sale{
+/*.section-sale{
     background-color: #EFEFEF;
-}
+}*/
 
 /*@media screen and (max-width:1279px) {
     .container-sale {
@@ -32,6 +32,17 @@
         letter-spacing: -0.02em;
         color: #141414;
         margin-bottom: 40px;
+    }
+
+    .watch-card-list{
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .single-watch{
+        margin-left:20px;
+        margin-right:0;
     }
 
     .watch-name-wrapper{
@@ -189,6 +200,19 @@
         padding-top: 128px;
         padding-bottom: 128px;
     }
+
+    .watch-card-wrapper{
+        display:flex;
+        justify-content: space-between;
+        padding-left: 66px;
+        padding-right: 66px; 
+    }
+
+    .watch-description{
+        padding-left: 66px;
+        padding-right: 66px;
+}
+
 }
 
 
@@ -197,13 +221,23 @@
 @media screen and (min-width: 1280px) {
     .container {
         width: 1216px;
-        padding-top: 160px;
+        padding-top: 80px;
         padding-bottom: 160px;
     }
 
 .container-sale{
     display:flex;
     flex-direction: row;
+    padding-right:98px;
+    padding-left:98px;
 }
 
+.single-watch {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.title-section {
+margin-bottom:80px;
+}
 }
