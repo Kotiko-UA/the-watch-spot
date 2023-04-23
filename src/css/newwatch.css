@@ -29,6 +29,11 @@
     margin-bottom: 20px;
 }
 
+.new-watches-gallery-item:last-child {
+    margin-bottom: 0;
+}
+
+
 @media screen and (min-width: 375px) {
     .new-watches-container {
         max-width: 375px;
