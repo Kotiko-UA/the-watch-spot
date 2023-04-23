@@ -41,6 +41,7 @@
     }
 
     .single-watch{
+        display: block;
         margin-left:20px;
         margin-right:0;
     }
@@ -207,6 +208,11 @@
         padding-left: 66px;
         padding-right: 66px; 
     }
+
+.single-watch {
+    margin-left: 0;
+    margin-right: 0;
+}
 
     .watch-description{
         padding-left: 66px;
