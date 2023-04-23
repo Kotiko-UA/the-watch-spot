@@ -37,7 +37,7 @@
     .watch-card-list{
         display:flex;
         flex-direction: column;
-        gap:10px;
+        gap:12px;
     }
 
     .single-watch{
@@ -208,6 +208,10 @@
         padding-left: 66px;
         padding-right: 66px; 
     }
+
+.watch-card-list {
+    gap:10px;
+}
 
 .single-watch {
     margin-left: 0;
