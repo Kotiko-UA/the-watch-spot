@@ -46,6 +46,18 @@
     .new-watches-container {
         max-width: 744px;
     }
+
+    .new-watches-subtitle {
+        font-size: 40px;
+        line-height: 1.1;
+        color: #1E2827;
+        max-width: 448px;
+    }
+
+    .new-wathes-gallery-list {
+        display: flex;
+        gap: 20px;
+    }
 }
 
 /* !=============== DESKTOP ===================== */
