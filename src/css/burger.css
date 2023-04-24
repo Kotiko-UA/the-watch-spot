@@ -1,0 +1,127 @@
+.burger-posion {
+  position: fixed;
+  max-width: 375px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+  z-index: 1000;
+  overflow-y: scroll;
+  /* pointer-events: auto; */
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  transition: opacity var(--cubic-bezier), transform var(--cubic-bezier),
+    visibility var(--cubic-bezier);
+}
+
+.burger-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--dark);
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 29px;
+}
+.burger-hed {
+  display: flex;
+  height: 24px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  height: 24px;
+}
+.burger-log {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98px;
+  gap: 4px;
+}
+.burger-logo {
+  width: 14px;
+  height: 14px;
+  fill: var(--lite);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.burger-logo-text {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.03em;
+
+  color: var(--lite);
+}
+.burger-close {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  right: 20px;
+  /* left: 331px; */
+  border: none;
+  background-color: transparent;
+  stroke: rgba(255, 255, 255, 0.8);
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.burger-close:hover,
+.burger-close:focus {
+  stroke: var(--lite);
+}
+
+.burger-close-svg {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.burger-list {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 64px;
+  text-align: center;
+}
+.burger-list-item {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  margin-bottom: 16px;
+}
+.color-nav-bur {
+  color: var(--lite);
+}
+
+.burger-posion.menu-is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  box-shadow: none;
+  overflow: hidden;
+  transform: translate(50%) scale(0);
+}
+
+@media screen and (min-width: 768px) {
+  .burger-posion {
+    display: none;
+  }
+}
