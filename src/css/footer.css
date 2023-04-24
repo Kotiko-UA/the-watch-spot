@@ -1,5 +1,5 @@
 footer {
-    background-color: #1E2827;
+    background-color: var(--dark);
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -12,26 +12,32 @@ footer {
 .footer-logo {
     width: 40px;
     height: 40px;
+}
+
+.footer-logo-wrapper {
     margin-bottom: 40px;
+    display: block;
+    width: 40px;
 }
 
 .footer-phone-number {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
-    color: #FFFFFF;
+    color: var(--lite);
+    opacity: 0.8;
 }
 
 .footer-text {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
+    width: 181px;
     letter-spacing: -0.02em;
     color: var(--lite);
-    width: 141px;
     margin-top: 20px;
-    margin-bottom: 40px;
     display: block;
+    opacity: 0.8;
 }
 
 .footer-navigation {
@@ -46,23 +52,17 @@ footer {
 
 .footer-navigation-item {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    color: #FFFFFF; 
+    color: var(--lite); 
+    opacity: 0.8;
 }
 
-
-
-.media-list-wrapper {
-    width: 100%;
-    max-width: 148px;
-}
 
 .media-list {
     display: flex;
     column-gap: 16px;
-    margin-bottom: 80px;
 }
 
 .social-media-btn {
@@ -76,7 +76,8 @@ footer {
 .media-logo {
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: var(--lite);
+    opacity: 0.8;
 }
 
 .copyright-text {
@@ -89,23 +90,59 @@ footer {
 
 .service-text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #C6CDD1;
 }
+.copyright-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #C6CDD1;
+}
+/* Max Width----------------------------------------------------------------------  */
+@media screen and (max-width: 768px) {
+    .footer-text {
+        font-size: 14px;
+        width: 141px;
+    }   
+    .footer-phone-number {
+        font-size: 14px;
+    } 
+    .footer-navigation-item {
+        font-size: 14px;
+    }
+    .service-text {
+        font-size: 12px;
+    }
+    .footer-address-wrapper {
+        margin-bottom: 40px;
+    }
+    .media-list-wrapper {
+        margin-bottom: 80px;
+    }
+    
+}
+
+
 
 /* Tablet-------------------------------------------------------------------------  */
     
 @media screen and (min-width: 768px) {
-.footer-main-content-wrapper {
+    .footer-logo-wrapper {
+        width: 50px;
+    }
+
+    .footer-main-content-wrapper {
     justify-content: space-between;
 }
 .footer-navigation {
     margin-left: 0;
 }
 .service-wrapper {
-    margin-top: 80px;
+    margin-top: 152px;
     display: flex;
 }
 .pp-text {
@@ -116,4 +153,74 @@ footer {
     width: 50px;
     height: 50px;
 }
+.footer-text {
+    margin-bottom: 0;
+}
+.footer-navigation-list {
+    row-gap: 18px;
+}
+.media-logo {
+    width: 28px;
+    height: 28px;
+}
+}
+@media screen and (min-width: 1280px) {
+    .service-wrapper {
+        margin-top: 174px;
+    }
+
+
+    .footer-phone-number {
+        transition: opacity var(--cubic-bezier); 
+    }
+
+    .footer-phone-number:hover,
+    .footer-phone-number:focus {
+        opacity: 1;
+    }
+
+    .footer-text {
+        transition: opacity var(--cubic-bezier); 
+    }
+
+    .footer-text:hover,
+    .footer-text:focus {
+        opacity: 1;
+    }
+
+    .footer-navigation-item {
+        transition: opacity var(--cubic-bezier); 
+    }
+
+    .footer-navigation-item:hover,
+    .footer-navigation-item:focus {
+        opacity: 1;
+    }
+
+    .media-logo {
+        transition: opacity var(--cubic-bezier);
+    }
+
+    .social-media-btn:hover .media-logo,
+    .social-media-btn:focus .media-logo {
+        opacity: 1;
+    }
+
+    .social-media-btn {
+        transition: border-color var(--cubic-bezier);
+    }
+
+    .social-media-btn:hover,
+    .social-media-btn:focus {
+        border-color: var(--lite);
+    }
+    
+    .service-text {
+        transition: color var(--cubic-bezier);
+    }
+    
+    .service-text:hover,
+    .service-text:focus {
+        color: var(--lite);
+    }
 }
