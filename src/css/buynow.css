@@ -10,7 +10,7 @@
 .modal {
   display: block;
   width: 335px;
-  height: 1073px;
+  max-height: 1073px;
   background-color: #FFFFFF;
   padding: 40px 20px;
   margin: 0 auto;
@@ -23,7 +23,10 @@
 }
 
 .svg-btn {
+  width: 10px;
+  height: 10px;
   stroke: var(--black);
+  fill: var(--black);
 }
 
 .foto {
@@ -38,9 +41,11 @@
 
 .foto-modal {
   margin: 0 auto;
+  margin-bottom: 14px;
 }
 
 .close-btn {
+  padding: 5px;
   position: absolute;
   top: 12px;
   right: 12px;
@@ -48,7 +53,6 @@
   background-color: transparent;
   width: 20px;
   height: 20px;
-  fill: var(--black);
   margin-bottom: 8px;
 
 
@@ -60,7 +64,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black);
-  margin-top: 14px;
 
 }
 
@@ -115,7 +118,7 @@
   resize: none;
   border: 1px solid rgba(20, 20, 20, 0.5);
   border-radius: 8px;
-  margin-top: 8px;
+  margin-top: 14px;
 
 }
 
