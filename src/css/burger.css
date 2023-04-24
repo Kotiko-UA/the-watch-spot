@@ -10,7 +10,6 @@
   visibility: visible;
   z-index: 1000;
   overflow-y: scroll;
-  /* pointer-events: auto; */
 }
 
 .burger-body {
@@ -66,7 +65,6 @@
   width: 24px;
   height: 24px;
   right: 20px;
-  /* left: 331px; */
   border: none;
   background-color: transparent;
   stroke: rgba(255, 255, 255, 0.8);
