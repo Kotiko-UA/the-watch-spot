@@ -1,5 +1,7 @@
 .section-sale {
     background-color: #FBFBFB;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 
@@ -198,6 +200,10 @@
 
 
 @media screen and (min-width: 768px) {
+    .section-sale {
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
 
     .watch-card-wrapper {
         display: flex;
@@ -230,6 +236,8 @@
     .container-sale {
         display: flex;
         justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 160px;
         padding-right: 0;
         padding-left: 0;
     }

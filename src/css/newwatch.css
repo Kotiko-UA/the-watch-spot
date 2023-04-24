@@ -1,10 +1,14 @@
+.new-watches {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
 .new-watches-container {
     width: 100%;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 80px;
-    background: #EFEFEF;
 }
 
 .new-watches-title {
@@ -41,9 +45,13 @@
 /* !=============== TABLET ===================== */
 
 @media screen and (min-width: 768px) {
+    .new-watches {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
     .new-watches-container {
         max-width: 744px;
-        padding-top: 128px;
     }
 
     .new-watches-subtitle {
@@ -66,10 +74,13 @@
 /* !=============== DESKTOP ===================== */
 
 @media screen and (min-width: 1280px) {
-    .new-watches-container {
-        max-width: 1196px;
+    .new-watches {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+
+    .new-watches-container {
+        max-width: 1196px;
         background: none;
     }
 
