@@ -38,6 +38,7 @@
 
 .foto-modal {
   margin: 0 auto;
+  margin-bottom: 14px;
 }
 
 .close-btn {
@@ -60,7 +61,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black);
-  margin-top: 14px;
 
 }
 
