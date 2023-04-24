@@ -17,7 +17,7 @@
     letter-spacing: -0.02em;
     color: #1e2827;
   
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
   .aboutus-text {
     font-family: 'Epilogue';
@@ -30,7 +30,7 @@
     color: #141414;
   }
   .aboutus-text + .aboutus-text {
-    padding-top: 20px;
+    margin-top: 20px;
   }
   .movie-watch {
     width: 335px;
@@ -53,7 +53,7 @@
         display: flex;
     }
     .aboutus-text + .aboutus-text {
-        padding-top: 0;
+        margin-top: 0;
         margin-left: 20px;
               
       }
