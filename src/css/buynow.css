@@ -60,6 +60,8 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black);
+  margin-top: 14px;
+
 }
 
 .modal-price {
