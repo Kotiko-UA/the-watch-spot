@@ -1,0 +1,105 @@
+.aboutus-section{
+    background-color: #FBFBFB;
+}
+
+.aboutus-area {
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+
+  }
+  .aboutus-name {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1e2827;
+  
+    margin-bottom: 40px;
+  }
+  .aboutus-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+  
+    color: #141414;
+  }
+  .aboutus-text + .aboutus-text {
+    margin-top: 20px;
+  }
+  .movie-watch {
+    width: 335px;
+    height: 365px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: var(--black);
+  }
+  .aboutus-text-section{
+  margin-bottom: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    .aboutus-area {
+        padding-top: 64px;
+        padding-bottom: 128px;
+      }
+    
+    .aboutus-text-section{
+        display: flex;
+    }
+    .aboutus-text + .aboutus-text {
+        margin-top: 0;
+        margin-left: 20px;
+              
+      }
+    .aboutus-text.first{
+        width: 220px;
+    }
+    .aboutus-text.second{
+        width: 250px;
+    }
+    .aboutus-name {
+        font-size: 40px;
+        line-height: 1.1;
+        padding-bottom: 0;
+
+        margin-right: 40px;
+
+      }
+      .movie-watch {
+        width: 704px;
+        height: 465px;
+      }
+    
+  }
+  @media screen and (min-width: 1280px) {
+    .aboutus-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+      }
+.aboutus-name{
+margin-right: 110px;
+}
+.aboutus-text.first{
+    width: 439px;
+}
+.aboutus-text.second{
+    width: 380px;
+}
+.aboutus-text + .aboutus-text {
+    margin-left: 40px;
+          
+  }
+  .movie-watch {
+    width: 892px;
+    height: 500px;
+    margin-right: 0;
+
+  }
+
+  }
