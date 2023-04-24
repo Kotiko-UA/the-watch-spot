@@ -139,7 +139,7 @@ flex-direction: column;
     content: '';
     width:16px;
     height:1px;
-    background-color: var(--primary-font);
+    background-color: var(--black);
 }
 
 .text-description{
