@@ -11,7 +11,7 @@
 }
 
 .container-catalog {
-  background-color: var(--lite);
+  background-color: #fbfbfb;
 }
 
 .catalog-title {
@@ -125,7 +125,8 @@
 }
 .button-buy:hover,
 .button-buy:focus {
-  border: 1px solid var(--lite);
+  background-color: var(--black);
+  /* border: 1px solid var(--lite); */
 }
 
 @media screen and (min-width: 768px) {
@@ -168,6 +169,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
   .catalog-title {
     margin-bottom: 90px;
   }
