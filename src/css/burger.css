@@ -10,6 +10,10 @@
   visibility: visible;
   z-index: 1000;
   overflow-y: scroll;
+  /* pointer-events: auto; */
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  transition: opacity var(--cubic-bezier), transform var(--cubic-bezier),
+    visibility var(--cubic-bezier);
 }
 
 .burger-body {
@@ -22,7 +26,6 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 29px;
-  transform: translateX(0);
 }
 .burger-hed {
   display: flex;
@@ -66,6 +69,7 @@
   width: 24px;
   height: 24px;
   right: 20px;
+  /* left: 331px; */
   border: none;
   background-color: transparent;
   stroke: rgba(255, 255, 255, 0.8);
@@ -78,8 +82,8 @@
 
 .burger-close-svg {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -89,10 +93,14 @@
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
-  width: 64px;
+
   text-align: center;
 }
 .burger-list-item {
+}
+.color-nav-bur {
+  display: block;
+  color: var(--lite);
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
@@ -100,34 +108,23 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
-  margin-bottom: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
-.color-nav-bur {
-  color: var(--lite);
-}
-.burger-posion.is-hidden {
+.burger-posion.menu-is-hidden {
   opacity: 0;
+
   pointer-events: none;
   visibility: hidden;
-  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-
-  transition: opacity var(--cubic-bezier), visibility var(--cubic-bezier);
-  transform: translateX(200px);
+  box-shadow: none;
+  overflow: hidden;
+  transform: translate(50%) scale(0);
 }
+
 @media screen and (min-width: 768px) {
   .burger-posion {
     display: none;
-  }
-}
-@keyframes burger-body {
-  0% {
-    transform: translateX(200px);
-    transition: burger-body 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  100% {
-    transform: translateX(0);
-    transition: burger-body 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
