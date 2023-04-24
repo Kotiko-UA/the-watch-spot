@@ -23,9 +23,17 @@
         margin-bottom: 40px;
     }
 
-.column-card-wrapper{
-display: flex;
-flex-direction: column;
+    .column-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    }
+
+.column-card-wrapper>.watch-card-list{
+    flex-grow: 1;
+}
+
+.single-card-wrapper>.single-watch{
+    flex-grow: 1;
 }
 
     .title-section {
