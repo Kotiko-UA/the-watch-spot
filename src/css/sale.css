@@ -28,11 +28,11 @@
     flex-direction: column;
     }
 
-.column-card-wrapper>.watch-card-list{
+.column-card-wrapper> .watch-card-list{
     flex-grow: 1;
 }
 
-.single-card-wrapper>.single-watch{
+.single-card-wrapper> .single-watch{
     flex-grow: 1;
 }
 
@@ -50,7 +50,7 @@
     .watch-card-list{
         display:flex;
         flex-direction: column;
-        gap:12px;
+        gap:10px;
     }
 
 .single-card-wrapper{
