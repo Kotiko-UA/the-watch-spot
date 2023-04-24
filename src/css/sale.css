@@ -4,197 +4,196 @@
     padding-bottom: 80px;
 }
 
+.watch-card-wrapper {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.column-card-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-card-wrapper>.watch-card-list {
+    flex-grow: 1;
+}
+
+.single-card-wrapper>.single-watch {
+    flex-grow: 1;
+}
+
+.watch-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single-card-wrapper {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.watch-name-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-section {
+    Font-family: var(--primary-font);
+    Font-weight: 600;
+    Font-size: 32px;
+    Line-height: 1.25;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+
+.title-watch {
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 24px;
+    Line-height: 1;
+    text-align: left;
+    Letter-spacing: -0.02em;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.watch-number {
+    display: block;
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align: left;
+    Letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 16px;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.price {
+    Font-family: Neue Montreal;
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    Letter-spacing: -0.02em;
+    color: var(--black);
+    margin-right: 8px;
+}
+
+.old-price {
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 12px;
+    Line-height: 1.16;
+    Letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    text-decoration: line-through;
+}
+
+.watch-name-wrapper::after {
+    content: '';
+    width: inherit;
+    height: 1px;
+    background-color: var(--black);
+}
+
+.watch-description-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.title-description::after {
+    content: '';
+    width: 16px;
+    height: 1px;
+    background-color: var(--black);
+}
+
+.text-description {
+    width: 100%;
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align: left;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 40px;
+}
+
+.watch-description-wrapper::after {
+    content: '';
+    width: inherit;
+    height: 1px;
+    background-color: var(--black);
+}
+
+.title-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 18px;
+    Line-height: 1.33;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: var(--black);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.title-details::after {
+    content: '';
+    width: 16px;
+    height: 1px;
+    background-color: var(--black);
+}
+
+.features-details {
+    display: block;
+    Font-family: var(--primary-font);
+    Font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.28;
+    text-align: Left;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+}
 
 /*--------------MOB--------------------*/
 
-@media screen and (min-width: 375px) {
-
-    .watch-card-wrapper {
-        display: flex;
-        margin-bottom: 40px;
-    }
-
-    .column-card-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .column-card-wrapper>.watch-card-list {
-        flex-grow: 1;
-    }
-
-    .single-card-wrapper>.single-watch {
-        flex-grow: 1;
-    }
-
-    .title-section {
-        Font-family: var(--primary-font);
-        Font-weight: 600;
-        Font-size: 32px;
-        Line-height: 1.25;
-        text-align: left;
-        letter-spacing: -0.02em;
-        color: var(--black);
-        margin-bottom: 40px;
-    }
-
-    .watch-card-list {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .single-card-wrapper {
-        flex-grow: 1;
-        margin-left: 20px;
-        margin-right: 0;
-    }
-
-    .watch-name-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .title-watch {
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 24px;
-        Line-height: 1;
-        text-align: left;
-        Letter-spacing: -0.02em;
-        color: var(--black);
-        margin-bottom: 8px;
-    }
-
-    .watch-number {
-        display: block;
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 14px;
-        Line-height: 1.28;
-        text-align: left;
-        Letter-spacing: -0.02em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 16px;
-    }
-
-    .prices {
-        display: flex;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-
-    .price {
-        Font-family: Neue Montreal;
-        Font-weight: 400;
-        Font-size: 18px;
-        Line-height: 1.33;
-        text-align: left;
-        Letter-spacing: -0.02em;
-        color: var(--black);
-        margin-right: 8px;
-    }
-
-    .old-price {
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 12px;
-        Line-height: 1.16;
-        Letter-spacing: -0.02em;
-        color: rgba(20, 20, 20, 0.5);
-        text-decoration: line-through;
-    }
-
-    .watch-name-wrapper::after {
-        content: '';
-        width: inherit;
-        height: 1px;
-        background-color: var(--black);
-    }
-
-    .watch-description-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .title-description {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 18px;
-        Line-height: 1.33;
-        text-align: left;
-        letter-spacing: -0.02em;
-        color: var(--black);
-        padding-top: 8px;
-        padding-bottom: 8px;
-        text-transform: uppercase;
-        margin-bottom: 9px;
-    }
-
-    .title-description::after {
-        content: '';
-        width: 16px;
-        height: 1px;
-        background-color: var(--black);
-    }
-
-    .text-description {
-        width: 100%;
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 14px;
-        Line-height: 1.28;
-        text-align: left;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 40px;
-    }
-
-    .watch-description-wrapper::after {
-        content: '';
-        width: inherit;
-        height: 1px;
-        background-color: var(--black);
-    }
-
-    .title-details {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 18px;
-        Line-height: 1.33;
-        text-align: left;
-        letter-spacing: -0.02em;
-        color: var(--black);
-        padding-top: 8px;
-        padding-bottom: 8px;
-        text-transform: uppercase;
-        margin-bottom: 9px;
-    }
-
-    .title-details::after {
-        content: '';
-        width: 16px;
-        height: 1px;
-        background-color: var(--black);
-    }
-
-    .features-details {
-        display: block;
-        Font-family: var(--primary-font);
-        Font-weight: 400;
-        Font-size: 14px;
-        Line-height: 1.28;
-        text-align: Left;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-    }
-}
+@media screen and (min-width: 375px) {}
 
 /*--------------TABLET-----------*/
 
