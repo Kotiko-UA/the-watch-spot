@@ -5,12 +5,15 @@
   height: 100%;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%) scale(1);
   opacity: 1;
   visibility: visible;
   z-index: 1000;
   overflow-y: scroll;
   /* pointer-events: auto; */
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  transition: opacity var(--cubic-bezier), transform var(--cubic-bezier),
+    visibility var(--cubic-bezier);
 }
 
 .burger-body {
@@ -108,13 +111,13 @@
   color: var(--lite);
 }
 
-.burger-posion.is-hidden {
+.burger-posion.menu-is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-
-  transition: opacity var(--cubic-bezier), visibility var(--cubic-bezier);
+  box-shadow: none;
+  overflow: hidden;
+  transform: translate(50%) scale(0);
 }
 
 @media screen and (min-width: 768px) {
