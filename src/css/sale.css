@@ -1,5 +1,5 @@
 .section-sale{
-    background-color: #EFEFEF;
+    background-color: #FBFBFB;
 }
 
 /*@media screen and (max-width:1279px) {
@@ -50,11 +50,6 @@ flex-direction: column;
     margin-left: 20px;
     margin-right: 0;
 }
-
-    .single-watch{
-        
-        
-    }
 
     .watch-name-wrapper{
         display: flex;
@@ -247,14 +242,30 @@ flex-direction: column;
 
 .container-sale{
     display:flex;
-    flex-direction: row;
-    padding-right:98px;
-    padding-left:98px;
+    justify-content: center;
+    padding-right:0;
+    padding-left:0;
+}
+
+.watch-card-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.single-card-wrapper{
+    display: flex;
 }
 
 .single-watch {
     margin-left: 20px;
     margin-right: 40px;
+}
+
+.watch-description{
+width:369px;
+padding-left: 0;
+padding-right: 0;
 }
 
 .title-section {
