@@ -5,7 +5,7 @@
   height: 100%;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%) scale(1);
   opacity: 1;
   visibility: visible;
   z-index: 1000;
