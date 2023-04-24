@@ -51,6 +51,11 @@
 /* !=============== TABLET ===================== */
 
 @media screen and (min-width: 768px) {
+    .new-watches {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
     .new-watches-container {
         max-width: 744px;
         padding-top: 64px;
@@ -77,8 +82,7 @@
 /* !=============== DESKTOP ===================== */
 
 @media screen and (min-width: 1280px) {
-    .new-watches-container {
-        max-width: 1196px;
+    .new-watches {
         padding-top: 80px;
         padding-bottom: 80px;
     }
