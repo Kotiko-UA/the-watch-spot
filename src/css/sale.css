@@ -20,7 +20,7 @@
 
     .watch-card-wrapper {
         display: flex;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
 .column-card-wrapper{
@@ -250,7 +250,7 @@ flex-direction: column;
 .watch-card-wrapper{
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .single-card-wrapper{
