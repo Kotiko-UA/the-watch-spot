@@ -29,13 +29,13 @@ flex-direction: column;
 }
 
     .title-section {
-        Font-family: Epilogue;
+        Font-family: var(--primary-font);
         Font-weight: 600;
         Font-size: 32px;
         Line-height: 1.25;
         text-align: left;
         letter-spacing: -0.02em;
-        color: #141414;
+        color: var(--black);
         margin-bottom: 40px;
     }
 
@@ -57,19 +57,19 @@ flex-direction: column;
 }
 
     .title-watch{
-        Font-family: Epilogue;
+        Font-family: var(--primary-font);
         Font-weight: 400;
         Font-size: 24px;
         Line-height: 1;
         text-align: left;
         Letter-spacing: -0.02em;
-        color: #141414;
+        color: var(--black);
         margin-bottom: 8px;
     }
 
     .watch-number{
     display: block;
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight:400;
     Font-size: 14px;
     Line-height: 1.28;
@@ -92,12 +92,12 @@ flex-direction: column;
     Line-height: 1.33;
     text-align: left;
     Letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--black);
     margin-right: 8px;
     }
 
     .old-price{
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight: 400;
     Font-size: 12px;
     Line-height: 1.16;
@@ -110,7 +110,7 @@ flex-direction: column;
     content:'';
     width:inherit;
     height:1px;
-    background-color: #141414;
+    background-color: var(--black);
 }
 
 .watch-description-wrapper{
@@ -122,13 +122,13 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight: 400;
     Font-size: 18px;
     Line-height: 1.33;
     text-align: left;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--black);
     padding-top: 8px;
     padding-bottom: 8px;
     text-transform: uppercase;
@@ -139,12 +139,12 @@ flex-direction: column;
     content: '';
     width:16px;
     height:1px;
-    background-color: #141414;
+    background-color: var(--black);
 }
 
 .text-description{
     width:100%;
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight: 400;
     Font-size: 14px;
     Line-height: 1.28;
@@ -158,20 +158,20 @@ flex-direction: column;
     content: '';
     width: inherit;
     height: 1px;
-    background-color: #141414;
+    background-color: var(--black);
 }
 
 .title-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight: 400;
     Font-size: 18px;
     Line-height: 1.33;
     text-align: left;
     letter-spacing: -0.02em;
-    color: #141414;
+    color: var(--black);
     padding-top: 8px;
     padding-bottom: 8px;
     text-transform: uppercase;
@@ -182,12 +182,12 @@ flex-direction: column;
     content: '';
     width: 16px;
     height: 1px;
-    background-color: #141414;
+    background-color: var(--black);
 }
 
 .features-details{
     display:block;
-    Font-family: Epilogue;
+    Font-family: var(--primary-font);
     Font-weight: 400;
     Font-size: 14px;
     Line-height: 1.28;
