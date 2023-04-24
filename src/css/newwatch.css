@@ -38,12 +38,6 @@
 }
 
 
-@media screen and (min-width: 375px) {
-    .new-watches-container {
-        max-width: 375px;
-    }
-}
-
 /* !=============== TABLET ===================== */
 
 @media screen and (min-width: 768px) {

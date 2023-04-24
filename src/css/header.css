@@ -139,9 +139,3 @@
         background-color: var(--lite);
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .container {
-        width: 1216px;
-    }
-}

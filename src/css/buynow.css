@@ -163,17 +163,9 @@
   color: rgba(20, 20, 20, 0.4);
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
-}
+@media screen and (min-width: 375px) {}
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 744px;
-  }
-
   .foto {
     margin: 0;
   }
@@ -199,9 +191,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1216px;
-  }
 
   .modal {
     width: 904px;
