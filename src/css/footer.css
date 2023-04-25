@@ -83,10 +83,6 @@ footer {
     opacity: 0.8;
 }
 
-.copyright-text {
-    margin-bottom: 14px;
-}
-
 .pp-text {
     margin-right: 14px;
 }
@@ -113,7 +109,9 @@ footer {
         font-size: 14px;
         width: 141px;
     }
-
+    .copyright-text {
+        margin-bottom: 14px;
+    }
     .footer-phone-number {
         font-size: 14px;
     }
@@ -141,6 +139,10 @@ footer {
 /* Tablet-------------------------------------------------------------------------  */
 
 @media screen and (min-width: 768px) {
+    footer {
+        padding-top: 80px;
+    }
+    
     .footer-logo-wrapper {
         width: 50px;
     }
@@ -183,6 +185,11 @@ footer {
 }
 
 @media screen and (min-width: 1280px) {
+    footer {
+        padding-top: 104px;
+        padding-bottom: 32px;
+    }
+    
     .service-wrapper {
         margin-top: 174px;
     }
@@ -241,4 +248,5 @@ footer {
     .service-text:focus {
         color: var(--lite);
     }
+    
 }
