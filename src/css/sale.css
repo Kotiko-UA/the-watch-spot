@@ -232,11 +232,15 @@
 /*------------DESKTOP--------------*/
 @media screen and (min-width: 1280px) {
 
+    .section-sale{
+    padding-top: 80px;
+    padding-bottom: 160px;
+    }
+
     .container-sale {
         display: flex;
         justify-content: center;
-        padding-top: 80px;
-        padding-bottom: 160px;
+
         padding-right: 0;
         padding-left: 0;
     }
