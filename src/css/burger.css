@@ -124,7 +124,7 @@
   visibility: hidden;
   box-shadow: none;
   overflow: hidden;
-  transform: translate(50%) scale(0);
+  transform: translate(100%, -100%) scale(0);
 }
 
 @media screen and (min-width: 768px) {
