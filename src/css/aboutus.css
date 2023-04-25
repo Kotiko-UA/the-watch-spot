@@ -1,13 +1,9 @@
 .aboutus-section {
   background-color: #FBFBFB;
-}
-
-.aboutus-area {
   padding-top: 40px;
   padding-bottom: 40px;
-
-
 }
+
 
 .aboutus-name {
   font-family: 'Epilogue';
@@ -50,11 +46,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .aboutus-area {
+  .aboutus-section{
     padding-top: 64px;
     padding-bottom: 64px;
   }
-
   .aboutus-text-section {
     display: flex;
   }
@@ -90,7 +85,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .aboutus-area {
+  .aboutus-section{
     padding-top: 80px;
     padding-bottom: 80px;
   }
