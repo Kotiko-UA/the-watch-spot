@@ -118,7 +118,7 @@
   box-shadow: none;
   overflow: hidden;
   transform: translateX(0);
-}
+ }
 
 @media screen and (min-width: 768px) {
   .burger-posion {

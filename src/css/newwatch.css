@@ -55,10 +55,6 @@
         padding-bottom: 64px;
     }
 
-    .new-watches-container {
-        max-width: 744px;
-    }
-
     .new-watches-subtitle {
         font-size: 40px;
         line-height: 1.1;
@@ -82,11 +78,6 @@
     .new-watches {
         padding-top: 80px;
         padding-bottom: 80px;
-    }
-
-    .new-watches-container {
-        max-width: 1196px;
-        background: none;
     }
 
     .new-watches-subtitle {
