@@ -82,12 +82,14 @@
 .burger-close:hover,
 .burger-close:focus {
   stroke: var(--lite);
+  border: 1px solid var(--lite);
+  border-radius: 8px;
 }
 
 .burger-close-svg {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -118,7 +120,7 @@
   box-shadow: none;
   overflow: hidden;
   transform: translateX(0);
- }
+}
 
 @media screen and (min-width: 768px) {
   .burger-posion {
