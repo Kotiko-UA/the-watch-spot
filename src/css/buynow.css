@@ -166,7 +166,6 @@
   color: rgba(20, 20, 20, 0.4);
 }
 
-@media screen and (min-width: 375px) {}
 
 @media screen and (min-width: 768px) {
   .foto {
@@ -175,7 +174,7 @@
 
   .modal {
     width: 744px;
-    height: 670px;
+    height: 100%;
     padding: 40px;
     display: flex;
     gap: 20px;
