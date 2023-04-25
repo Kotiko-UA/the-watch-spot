@@ -10,7 +10,7 @@
 .modal {
   display: block;
   width: 335px;
-  max-height: 1073px;
+  height: 100%;
   background-color: #FFFFFF;
   padding: 40px 20px;
   margin: 0 auto;
