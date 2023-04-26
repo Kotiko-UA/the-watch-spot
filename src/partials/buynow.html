@@ -2,7 +2,7 @@
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close>
       <svg class="svg-btn">
-        <use href="./img/sprite.svg#icon-cross"></use>
+        <use href="./img/sprite.svg#icon-closs-bur"></use>
       </svg>
     </button>
     <div class="foto">
@@ -28,6 +28,9 @@
             type="text"
             placeholder="Enter your full name"
             id="user-name"
+            name="user-name"
+            required
+            minlength="2"
           />
         </div>
       </div>
@@ -39,6 +42,8 @@
             type="email"
             placeholder="Enter your email"
             id="email"
+            name="user-email"
+            required
           />
         </div>
       </div>
@@ -50,6 +55,9 @@
             type="number"
             placeholder="Enter card"
             id="card-number"
+            name="card-number"
+            min="1"
+            max="16"
           />
         </div>
       </div>

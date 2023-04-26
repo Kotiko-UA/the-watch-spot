@@ -9,7 +9,9 @@
 
 .modal {
   display: block;
-  width: 335px;
+  max-width: 335px;
+  width: 100%;
+  max-height: 1073px;
   height: 100%;
   background-color: #FFFFFF;
   padding: 40px 20px;
@@ -22,11 +24,11 @@
 
 }
 
+
 .svg-btn {
   width: 10px;
   height: 10px;
   stroke: var(--black);
-  fill: var(--black);
 }
 
 .foto {
@@ -45,7 +47,7 @@
 }
 
 .close-btn {
-  padding: 5px;
+
   position: absolute;
   top: 12px;
   right: 12px;
@@ -53,9 +55,16 @@
   background-color: transparent;
   width: 20px;
   height: 20px;
-  margin-bottom: 8px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  transform: scale(1);
+  transition: transform var(--cubic-bezier);
+}
 
-
+.close-btn:hover,
+.close-btn:focus {
+  transform: scale(1.25);
 }
 
 .modal-title {
@@ -170,8 +179,10 @@
   }
 
   .modal {
-    width: 744px;
-    height: 670px;
+    max-width: 744px;
+    width: 100%;
+    height: 100%;
+    max-height: 670px;
     padding: 40px;
     display: flex;
     gap: 20px;
@@ -192,8 +203,10 @@
 @media screen and (min-width: 1280px) {
 
   .modal {
-    width: 904px;
-    height: 694px;
+    max-width: 904px;
+    max-height: 694px;
+    width: 100%;
+    height: 100%;
     gap: 40px;
   }
 
